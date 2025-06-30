@@ -1,0 +1,17 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore Parcel build cache folder
+.parcel-cache/
+
+# Ignore build output folder (optional but recommended)
+dist/
+
+# Ignore environment variable files
+.env
+
+# Ignore system files (optional)
+.DS_Store
+
+# Ignore log files (optional)
+*.log
