@@ -20,6 +20,7 @@ function Card(props) {
             <h4 style={{ margin: "10px 0 5px 0", fontSize: "16px" }}>{props.cloth}</h4>
             <h2 style={{ margin: "5px 0", fontSize: "18px" }}>{props.offer}</h2>
             <h4 style={{ margin: "5px 0", fontSize: "14px", fontWeight: "normal" }}>Shop Now!</h4>
+            <h4 style={{ margin: "10px 0 5px 0", fontSize: "16px" }}>{props.price} Rs</h4>
         </div>
     );
 }
