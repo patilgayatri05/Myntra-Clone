@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { FaUser, FaHeart, FaShoppingBag, FaSearch } from "react-icons/fa";
 
 
+
 function Card(props) {
     return (
         <div style={{
