@@ -2,13 +2,6 @@ import { FaUser, FaHeart, FaShoppingBag, FaSearch } from "react-icons/fa";
 import arr from "../utils/dummy";
 function Header() {
 
-     const buttonClick = () => {
-
-       arr.sort((a, b) => a.price - b.price);
-        
-       };
-
-    }
     return (
 
     <div className="Header">
@@ -47,11 +40,6 @@ function Header() {
                     <FaShoppingBag size={20} />
                     <span>Bag</span>
                 </div>
-            </div>
-
-            <div>
-                
-                <button onClick={buttonClick}>Price</button>
             </div>
     </div>
     )
